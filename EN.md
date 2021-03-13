@@ -12,7 +12,7 @@ AMASS - https://github.com/OWASP/Amass
 CHAOS - https://github.com/projectdiscovery/chaos-client
 This tool needs to register the API
 
-export CHAOS_KEY = CHAOS_API_KEY
+$ export CHAOS_KEY = CHAOS_API_KEY
 
 ASSETFINDER -https: //github.com/tomnomnom/assetfinder
 
