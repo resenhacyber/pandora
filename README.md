@@ -27,6 +27,8 @@ ANTI-BURL - https://github.com/tomnomnom/hacks/tree/master/anti-burl
 
 NUCLEI - https://github.com/projectdiscovery/nuclei#nuclei-templates
 
-MODO DE USAR
+1. Instalação:
+
+#git clone 
 
 #pandora paypal.com.br
