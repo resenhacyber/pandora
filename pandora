@@ -1,2 +1,2 @@
-#Oneliner Pandora | Team TheKingsOfBounty | By ResenhaCyber
+#Oneliner Pandora || By ResenhaCyber
 amass enum -d $1 -o amass1 ; chaos -d $1 -o chaos1 -silent ; assetfinder $1 >> assetfinder1 ; subfinder -d $1 -o subfinder1 ; findomain -t $1 -q -u findomain1 ; python3 github-search/github-subdomains.py -t API KEY GITHUB  -d $1 >> github ; cat assetfinder1 subfinder1 chaos1 amass1 findomain1 github >> hosts | anew | subfinder -dL hosts -o full -timeout 10 -silent ; httpx -l hosts -silent -threads 50 -timeout 30 | anti-burl | awk '{print $4}' | anew domains ; rm -rf amass1 chaos1 assetfinder1 subfinder1 findomain1 github ; nuclei -l domains -t /root/nuclei-templates/ -severity low,high,critical -o bugbounty
