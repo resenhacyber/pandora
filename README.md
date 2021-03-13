@@ -29,6 +29,11 @@ NUCLEI - https://github.com/projectdiscovery/nuclei#nuclei-templates
 
 1. Instalação:
 
-#git clone 
+# git clone https://github.com/resenhacyber/pandora.git
+# cd pandora
+# chmod +x pandora
+# cp pandora /usr/bin
 
-#pandora paypal.com.br
+2. Como usar
+
+# pandora dominio
