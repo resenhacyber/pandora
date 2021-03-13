@@ -10,15 +10,16 @@ For the proper functioning, it is important:
 AMASS - https://github.com/OWASP/Amass
 
 CHAOS - https://github.com/projectdiscovery/chaos-client
+
 This tool needs to register the API
 
 $ export CHAOS_KEY = CHAOS_API_KEY
 
-ASSETFINDER -https: //github.com/tomnomnom/assetfinder
+ASSETFINDER -https://github.com/tomnomnom/assetfinder
 
-SUBFINDER -https: //github.com/projectdiscovery/subfinder
+SUBFINDER -https://github.com/projectdiscovery/subfinder
 
-FINDOMAIN -https: //github.com/Findomain/Findomain
+FINDOMAIN -https://github.com/Findomain/Findomain
 
 GITHUB-RESEARCH - https://github.com/gwen001/github-search
 This tool needs to have the API registered in github, in the pandora binary, it has the right place to place the API Key.
