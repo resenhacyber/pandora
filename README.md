@@ -20,6 +20,7 @@ SUBFINDER -https://github.com/projectdiscovery/subfinder
 FINDOMAIN -https://github.com/Findomain/Findomain
 
 GITHUB-RESEARCH - https://github.com/gwen001/github-search
+Essa tool precisa de ter cadastrada a API no github, no binario pandora, tem o lugar certo para colocar a API Key.
 
 ANEW - https://github.com/tomnomnom/anew
 
