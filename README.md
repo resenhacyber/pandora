@@ -27,7 +27,7 @@ ANTI-BURL - https://github.com/tomnomnom/hacks/tree/master/anti-burl
 
 NUCLEI - https://github.com/projectdiscovery/nuclei#nuclei-templates
 
-1. Instalação:
+# 1. Instalação:
 
 $ git clone https://github.com/resenhacyber/pandora.git
 
@@ -37,6 +37,6 @@ $ chmod +x pandora
 
 $ cp pandora /usr/bin
 
-2. Como usar
+# 2. Como usar
 
 $ pandora dominio
